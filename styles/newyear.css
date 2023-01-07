@@ -1,0 +1,22 @@
+.banfont{
+    margin-right: 50px;
+}
+.fsize{
+    font-size: xx-small;
+}
+
+.btn{
+
+    padding: 15px,20px;
+    background-color: rgb(250, 116, 20);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 255, 255);
+    margin:0px, 0px;
+    position: right;
+    border-radius: 5px;
+    border:0px;
+}
+
+.banner{
+    background-image: url("newyear/images/banner/banner1.png");
+}
