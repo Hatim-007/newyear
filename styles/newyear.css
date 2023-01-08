@@ -1,22 +1,224 @@
-.banfont{
-    margin-right: 50px;
-}
-.fsize{
-    font-size: xx-small;
+
+
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .btn{
+    position: absolute;
+    bottom: 225px;
+    right: 104px;
 
-    padding: 15px,20px;
-    background-color: rgb(250, 116, 20);
+    padding: 10px;
+    background-color: rgb(253, 109, 6);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(255, 255, 255);
-    margin:0px, 0px;
+    margin: none;
     position: right;
     border-radius: 5px;
-    border:0px;
-}
+    border:none;
+}/* buttons */
 
 .banner{
     background-image: url("newyear/images/banner/banner1.png");
+}/* banner's immage */
+.fail {/* second section */
+    display: flex;
+    gap: 75px;
 }
+.failure{
+    margin-top:250px;
+}
+
+.pera{
+     margin-bottom: 22px;
+     font-size: 18px;
+     font-weight: 350;
+}
+
+.sec-title {
+    color: #151315;
+    font-size: 40 px;
+    margin-bottom: 45px;
+    font-weight: 650px;
+    text-align: center;
+}
+.ag-ti{ /* second sectio's bottom title*/
+    text-align: left;
+    margin-left: 230px;
+    font-size: 100px;
+         
+
+}
+.failure ul{
+    list-style: none;
+
+
+}
+
+.failure ul li{
+
+    margin-bottom: 15px;
+}
+
+.failure ul li i {
+
+    color: #16d881
+}
+
+.plans{
+    text-align: center;
+    margin-top: 110px;
+}
+.plan-cont{
+    display: flex;
+    gap: 80px;
+}
+.plan-item h2{
+   font-weight: 450px;
+   font-size: 25px;
+   margin-top: 20px;
+   margin-bottom: 10px;
+}
+.plan-item p{
+   font-weight: 300px;
+   font-size: 20px;
+   line-height: 28px;
+   color: #706c6c;
+}
+
+.call{
+    background-image: url(../newyear/images/gradient2.png), url(../newyear/images/watch.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    border-radius: 6px;
+
+}
+.call-now{
+    margin-left: 64px;
+    padding-top: 64px;
+}
+
+
+.sh{
+
+    margin-bottom: 25px;
+    font-weight: 650;
+    font-size: 38px;
+    color: #fff;
+    
+ }
+
+
+
+
+.btn-f{
+    color: #ff6200;
+    font-weight: 550;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    
+    padding: 25px;
+    
+    margin-bottom: 60px;
+
+}/* start from second button */
+.banner{
+    position: relative;
+    text-align: right;
+    font-style: inherit;
+    margin: none;
+    border: none;
+}/* banner's another work */
+
+.pos{
+    position: absolute;
+    top: 10px;
+    right: 16px;
+    margin-right: 85px;
+    margin-top: 100px;
+}/* second section*/
+
+.pos-pera{
+    position: absolute;
+    bottom: 195px;
+    right: 16px;
+    margin-right: 85px;
+    margin-bottom: 70px;
+}/* second section*/
+
+/* footer start */
+footer{
+    background:#151414;
+
+ }
+.foot-cont{
+    display: flex;
+    padding: 200px;
+    gap: 350px;
+    
+
+}
+.description{
+    color: #fff;
+    font-weight: 350;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.email{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.phone{
+    color: #fff;
+    margin-bottom: 30px;
+}
+.twit{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.subs h2{
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 20px;
+    
+}
+.subs input[type="email"]{
+    padding: 20px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    font-size: 20px;
+    
+}
+.subs input[type="submit"]{
+    padding: 20px;
+    background: #034072;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.sub{
+    padding: 15px;
+    background: #fe540b;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 25px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    margin-top: 20;
+    margin-right: 20px;
+    
+}
+
